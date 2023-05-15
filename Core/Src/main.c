@@ -7,7 +7,6 @@ DMA_HandleTypeDef hdma_adc1;
 
 
 void SystemClock_Config(void);
-//123
 int main(void)
 {
   HAL_Init();

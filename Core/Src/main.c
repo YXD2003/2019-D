@@ -7,7 +7,7 @@ DMA_HandleTypeDef hdma_adc1;
 
 
 void SystemClock_Config(void);
-
+//123
 int main(void)
 {
   HAL_Init();
@@ -27,10 +27,10 @@ int main(void)
   
   
   /* USER CODE BEGIN WHILE */
-  OLED_Init();				//³õÊ¼»¯OLED
-  OLED_Clear(0);             //ÇåÆÁ£¨È«ºÚ£©
-  //¿ªÆôADC1µÄ¶¨Ê±Æ÷
-  //HAL_ADC_Start_DMA(&hadc1, (uint32_t*)MADC1, 20);//²É¼¯20´Î
+  OLED_Init();				//ï¿½ï¿½Ê¼ï¿½ï¿½OLED
+  OLED_Clear(0);             //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½Ú£ï¿½
+  //ï¿½ï¿½ï¿½ï¿½ADC1ï¿½Ä¶ï¿½Ê±ï¿½ï¿½
+  //HAL_ADC_Start_DMA(&hadc1, (uint32_t*)MADC1, 20);//ï¿½É¼ï¿½20ï¿½ï¿½
   
   
   
@@ -44,10 +44,10 @@ int main(void)
         
   while (1)
   {
-    //OLED²âÊÔ²¿·Ö
-    TEST_MainPage();         //Ö÷½çÃæÏÔÊ¾²âÊÔ
+    //OLEDï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½
+    TEST_MainPage();         //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½
     OLED_Clear(0);
-     //ADC²ÉÑù²âÊÔ²¿·Ö
+     //ADCï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô²ï¿½ï¿½ï¿½
      //HAL_ADC_Start_DMA(&hadc1, (uint32_t*)MADC1, 20);
   }
 }

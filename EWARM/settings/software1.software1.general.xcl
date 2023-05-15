@@ -1,0 +1,15 @@
+"D:\app\IAR\arm\bin\armproc.dll" 
+
+"D:\app\IAR\arm\bin\armJET.dll" 
+
+"D:\GXS-RESOURCE\STM411NOENGLISH\software1\EWARM\software1\Exe\software1.out" 
+
+--plugin="D:\app\IAR\arm\bin\armbat.dll" 
+
+--device_macro="D:\app\IAR\arm\config\debugger\ST\STM32F4xx.dmac" 
+
+--flash_loader="D:\app\IAR\arm\config\flashloader\ST\FlashSTM32F411xE.board" 
+
+
+
+

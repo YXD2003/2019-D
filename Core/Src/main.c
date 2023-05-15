@@ -5,7 +5,7 @@
 ADC_HandleTypeDef hadc1;
 DMA_HandleTypeDef hdma_adc1;
 
-
+//1234
 void SystemClock_Config(void);
 int main(void)
 {

@@ -34,6 +34,7 @@ extern "C" {
 #include "spi.h"
 #include "gpio.h"
 #include "ad9833.h"
+#include "adc_dma.h"
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 
